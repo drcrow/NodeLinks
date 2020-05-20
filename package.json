@@ -4,6 +4,7 @@
   "description": "Demo for Node with MySQL following this tutorial https://www.youtube.com/watch?v=qJ5R9WTW0_E",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -30,5 +31,8 @@
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "timeago.js": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
